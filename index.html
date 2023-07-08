@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>杭州文海小学</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+        /*设置整个页面的背景*/
+		body {
+			background-image: url("background.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			margin: 0;
+			padding: 0;
+			font-family: "Minecraft AE Pixel", Arial, sans-serif;
+		}
+        /*设置导航栏背景色、边框和内边距*/
+		nav {
+			background-color: rgba(255, 255, 255, 0.4);
+			backdrop-filter: blur(15px);
+			border-radius: 20px;
+			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+			padding: 1.5rem;
+			position: fixed;
+			width: 100%;
+			top: 0;
+			left: 0;
+			z-index: 999;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+		}
+        /*设置导航栏链接样式*/
+		nav a {
+		  color: white;
+		  text-decoration: none;
+		  font-size: 1.2rem;
+		  margin-right: 1.5rem;
+		}
+		/*设置导航栏链接容器为flexbox*/
+		.nav-links {
+		  display: flex;
+		  justify-content: space-between;
+		  width: 50%;
+		  margin: 0 auto;
+		}
+        /*设置标题样式*/
+		h1 {
+			font-family: "Minecraft AE Pixel", Arial, sans-serif;
+			font-size: 5rem;
+			color: white;
+			margin-top: 15rem;
+			margin-left: 10rem;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+		}
+        /*设置按钮样式*/
+		button {
+			font-family: "Minecraft AE Pixel", Arial, sans-serif;
+			background-color: rgba(255, 255, 255, 0.4);
+			backdrop-filter: blur(10px);
+			color: white;
+			border: none;
+			border-radius: 20px;
+			padding: 1rem 2rem;
+			font-size: 1.5rem;
+			margin-top: 2rem;
+			margin-left: 12rem;
+			cursor: pointer;
+			box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="nav-links">
+		<a href="">首页</a>
+		<a href="./download/index.html">资源</a>
+		<a href="./minecraft/index.html">MC</a>
+		<a href="./info/index.html">关于</a>
+		<a href="./win12/desktop.html" target="_blank" rel="noopener noreferrer">Win12模拟器</a>
+		<a href="https://bing.imc.re/web/" target="_blank" rel="noopener noreferrer">BingAI</a>
+	</nav>
+	<h1>我是你爹！</h1>
+	<button>欢迎来到文海小学学生网！</button> 
+</body>
+</html>
