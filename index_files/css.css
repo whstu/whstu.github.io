@@ -2,7 +2,7 @@
 /* CSS Document */
 @font-face {
   font-family: "Minecraft AE Pixel";
-  src: url("minecraft-ae-pixel.ttf");
+  src: url("./index_files/minecraft-ae-pixel.ttf");
 }
 *{margin:0; padding:0;-webkit-text-size-adjust: 100%}
 body{
