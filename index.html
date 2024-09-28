@@ -8,6 +8,7 @@
 		<script src="./index_files/hm.js"></script><script type="text/javascript">uojHome = 'https://whstu.pages.dev'</script>
 
 		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="main.css">
 		<link type="text/css" rel="stylesheet" href="./index_files/bootstrap.min.css">		<!-- Bootstrap theme -->
 		<link type="text/css" rel="stylesheet" href="./index_files/bootstrap-theme.min.css">
 		<!-- Custom styles for this template -->
@@ -73,6 +74,98 @@
 				<script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "//hm.baidu.com/hm.js?bbd5ae87bf89e087603a1988103688ff";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>
 			</head>
 	<body role="document">
+		<script src="jq.min.js"></script>
+
+    <div id="ldb">
+        <div class="lay 0 show0 show" style="margin: 0;">
+            <p style="font-size: 40px;line-height: 540px;">欢迎来到卓然第三帝国官网</p>
+        </div>
+        <div class="lay 1" style="margin: 0;">
+            <p style="font-size: 40px;text-align: center;">请稍候<br>正在加载中</p>
+        </div>
+        <div class="lay 2" style="margin: 0;">
+            <p style="font-size: 40px;">三岁了<br>喝卓然</p>
+        </div>
+        <div class="lay 3" style="margin: 0;">
+            <p style="font-size: 40px;">卓然奶粉<br>专利添加OPO</p>
+        </div>
+        <div class="lay 4" style="margin: 0;">
+            <p style="font-size: 40px;">摇头丸<br>选卓然</p>
+        </div>
+        <div class="lay 5" style="margin: 0;">
+            <p style="font-size: 40px;">爱我卓然</p>
+        </div>
+        <div class="lay 6" style="margin: 0;">
+            <p style="font-size: 40px;">卓然奶粉<br>销量第一</p>
+        </div>
+        <div class="lay 7" style="margin: 0;">
+            <p style="font-size: 40px;line-height: 540px;">三岁了<br>喝卓然</p>
+        </div>
+        <div class="lay l" style="margin: 0; justify-content: unset; height: calc(100% - 70px)">
+            <p style="font-size: 40px;text-align: left;margin: 0 0 10px 10px;">三岁了，喝卓然</p>
+            <p style="font-size: 17px;
+            white-space-collapse:preserve;
+            word-break:keep-all;">三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+三岁了，喝卓然
+			</p>
+            <p style="text-align: right;"></p>
+        </div>
+    </div>
+    <a class="a" id="stt" onclick="
+        $('#ldb').hide();
+        document.body.style.overflow='auto';
+        $(this).remove();"><span style="font-size: 15px;">已加载完成</span><span style="font-size: 30px;">开始</span></a>
+    <script>
+let dl=[-1,10,8,13,9,14,13,18];let nt=4550;
+        setTimeout(() => {
+            $('#ldb>.lay.0').removeClass('show');
+            setTimeout(() => {
+                $('#ldb>.lay.0').removeClass('show0');
+            }, 500);
+        }, nt-530);
+for (let i = 1; i < 8; i++) {
+    nt+=dl[i]*1000;
+    setTimeout(() => {
+        $('#ldb>.lay.'+i).addClass('show0');
+        setTimeout(() => {
+        $('#ldb>.lay.'+i).addClass('show');
+
+        }, 20);
+        setTimeout(() => {
+            $('#ldb>.lay.'+i).removeClass('show');
+            setTimeout(() => {
+                $('#ldb>.lay.'+i).removeClass('show0');
+            }, 500);
+        }, dl[i]*1000-1000);
+    }, nt-dl[i]*1000);
+}
+    setTimeout(() => {
+        $('#ldb>.lay.l').addClass('show0');
+        setTimeout(() => {
+        $('#ldb>.lay.l').addClass('show');
+
+        }, 20);
+    }, nt);
+
+document.body.onload=()=>{
+    $('#stt').addClass('show')
+};
+
+    </script>
 		<div class="container theme-showcase" role="main">
 						<div>
 				<ul class="nav nav-pills pull-right" role="tablist">
