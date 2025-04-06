@@ -65,7 +65,7 @@ loadTimeData.data = {
   resetAllStatsDialogTitle: "重置一切",
   share: "分享",
   shareCopy: "复制",
-  shareLink: "https://whstu.us.kg/game/surf",
+  shareLink: "https://whstu.dpdns.org/game/surf",
   shareLinkCopied: "已复制！",
   skiTheme: "让我们网上滑雪吧",
   specialThanks: "特别感谢：",

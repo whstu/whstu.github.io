@@ -1,7 +1,7 @@
 # WHSTU：卓然第三帝国官网
 https://whstu.pages.dev/
 <br>
-https://whstu.us.kg/
+https://whstu.dpdns.org/
 <br>
 实在是太美！
 <br>
