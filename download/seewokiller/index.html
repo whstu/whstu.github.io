@@ -43,6 +43,10 @@ body{margin:0;min-height:100vh;font-family:"Segoe UI","PingFang SC","Microsoft Y
 .table th{background:rgba(37,99,235,.08);color:#1e3a8a}
 .table tr:last-child td{border-bottom:none}
 .banner{width:100%;max-width:100%;height:auto;border-radius:12px;border:1px solid var(--line)}
+.crumbs{padding:10px 14px;margin-bottom:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:14px}
+.crumbs a{color:var(--primary);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+.crumb-sep{opacity:.6}
 @media(max-width:980px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
@@ -69,6 +73,9 @@ body{margin:0;min-height:100vh;font-family:"Segoe UI","PingFang SC","Microsoft Y
     <h1>SeeWo Killer 下载</h1>
     <p>统一为 Fluent 风格页面，提供各版本安装包与说明。</p>
   </section>
+  <nav class="crumbs glass" aria-label="面包屑">
+    <a href="/">主页</a><span class="crumb-sep">/</span><a href="/download/">资源下载</a><span class="crumb-sep">/</span><span>SeeWo Killer</span>
+  </nav>
 
   <section class="grid">
     <article class="card glass">

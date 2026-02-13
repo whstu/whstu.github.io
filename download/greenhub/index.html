@@ -15,6 +15,10 @@
 .grid{display:grid;grid-template-columns:1.4fr 1fr;gap:14px}.card{padding:16px}.card h2{margin:0 0 10px;font-size:18px}
 .list{list-style:none;margin:0;padding:0;display:grid;gap:10px}.list li{margin:0;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.7);color:var(--muted)}.list li a{color:var(--primary);text-decoration:none}
 .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.72)}.table{width:100%;border-collapse:collapse;min-width:520px}.table th,.table td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left}.table th{background:rgba(37,99,235,.08);color:#1e3a8a}.table tr:last-child td{border-bottom:none}
+.crumbs{padding:10px 14px;margin-bottom:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:14px}
+.crumbs a{color:var(--primary);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+.crumb-sep{opacity:.6}
 @media(max-width:980px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
@@ -22,5 +26,6 @@
 <a class="chip" href="/">主页</a><a class="chip" href="/download/">资源下载</a><a class="chip" href="/game/">游戏</a><a class="chip" href="https://win12.whstu.dpdns.org/desktop.html" target="_blank" rel="noopener">Win12 模拟器</a><a class="chip" href="https://chat.whstu.dpdns.org/" target="_blank" rel="noopener">聊天</a><a class="chip" href="/join-us/">加入班级群</a><a class="chip" href="https://blog.whstu.dpdns.org/" target="_blank" rel="noopener">WHSTU 的博客</a><a class="chip" href="https://ntfy.whstu.dpdns.org" target="_blank" rel="noopener">ntfy</a><a class="chip chip-primary" href="/info/">关于</a>
 </nav></div></header>
 <section class="hero glass"><h1>GreenHub 下载</h1><p>统一 Fluent 风格，保留原始下载入口。</p></section>
+<nav class="crumbs glass" aria-label="面包屑"><a href="/">主页</a><span class="crumb-sep">/</span><a href="/download/">资源下载</a><span class="crumb-sep">/</span><span>GreenHub</span></nav>
 <section class="grid"><article class="card glass"><h2>下载入口</h2><ul class="list"><li><a href="https://whstu.lanzouq.com/iilaa31hww6h" target="_blank" rel="noopener">蓝奏云下载</a></li></ul></article><aside class="card glass"><h2>下载说明</h2><div class="table-wrap"><table class="table"><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>推荐浏览器</td><td>建议桌面端浏览器下载。</td></tr><tr><td>下载异常</td><td>如失败可稍后重试或切换网络。</td></tr></tbody></table></div></aside></section>
 </main></body></html>
